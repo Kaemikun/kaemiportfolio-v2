@@ -4,7 +4,7 @@ import { fadeUp, revealViewport, staggerContainer } from '../../lib/scrollReveal
 
 export default function About() {
   return (
-    <section id="about" className="mx-auto max-w-3xl px-6 py-28">
+    <section id="about" className="mx-auto max-w-3xl px-4 py-20 sm:px-6 sm:py-28">
       <motion.div
         initial="hidden"
         whileInView="visible"

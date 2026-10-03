@@ -5,7 +5,7 @@ import { fadeUp, revealViewport, staggerContainer } from '../../lib/scrollReveal
 
 export default function Contact() {
   return (
-    <section id="contact" className="mx-auto max-w-3xl px-6 py-28 text-center">
+    <section id="contact" className="mx-auto max-w-3xl px-4 py-20 sm:px-6 sm:py-28 text-center">
       <motion.div initial="hidden" whileInView="visible" viewport={revealViewport} variants={staggerContainer}>
         <motion.p variants={fadeUp} className="font-mono text-sm text-accent">
           06 / contact

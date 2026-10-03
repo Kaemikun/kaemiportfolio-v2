@@ -74,7 +74,7 @@ function ProjectCard({ project }: { project: Project }) {
 
 export default function Projects() {
   return (
-    <section id="projects" className="mx-auto max-w-5xl px-6 py-20">
+    <section id="projects" className="mx-auto max-w-5xl px-4 py-16 sm:px-6 sm:py-20">
       <motion.div initial="hidden" whileInView="visible" viewport={revealViewport} variants={staggerContainer}>
         <motion.p variants={fadeUp} className="font-mono text-sm text-accent">
           04 / projects

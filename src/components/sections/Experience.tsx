@@ -4,7 +4,7 @@ import { fadeUp, revealViewport, staggerContainer } from '../../lib/scrollReveal
 
 export default function Experience() {
   return (
-    <section id="experience" className="mx-auto max-w-3xl px-6 py-20">
+    <section id="experience" className="mx-auto max-w-3xl px-4 py-16 sm:px-6 sm:py-20">
       <motion.div initial="hidden" whileInView="visible" viewport={revealViewport} variants={staggerContainer}>
         <motion.p variants={fadeUp} className="font-mono text-sm text-accent">
           03 / experience

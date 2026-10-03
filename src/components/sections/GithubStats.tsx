@@ -32,7 +32,7 @@ export default function GithubStats() {
   const maxCount = stats?.topLanguages[0]?.count ?? 1
 
   return (
-    <section id="github" className="mx-auto max-w-5xl px-6 py-20">
+    <section id="github" className="mx-auto max-w-5xl px-4 py-16 sm:px-6 sm:py-20">
       <motion.div initial="hidden" whileInView="visible" viewport={revealViewport} variants={staggerContainer}>
         <motion.p variants={fadeUp} className="font-mono text-sm text-accent">
           05 / live from github

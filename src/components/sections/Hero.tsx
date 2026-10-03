@@ -12,7 +12,7 @@ export default function Hero({ onOpenTerminal }: HeroProps) {
     <section id="home" className="relative flex min-h-screen items-center overflow-hidden">
       <Hero3DScene />
 
-      <div className="relative z-10 mx-auto w-full max-w-5xl px-6">
+      <div className="relative z-10 mx-auto w-full max-w-5xl px-4 sm:px-6">
         <motion.p
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
@@ -26,7 +26,7 @@ export default function Hero({ onOpenTerminal }: HeroProps) {
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 0.5 }}
-          className="mt-2 text-5xl font-extrabold tracking-tight text-white sm:text-6xl md:text-7xl"
+          className="mt-2 text-4xl font-extrabold tracking-tight text-white sm:text-6xl md:text-7xl"
         >
           {profile.name}
         </motion.h1>

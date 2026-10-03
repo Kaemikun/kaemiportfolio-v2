@@ -26,78 +26,65 @@ export const profile = {
   skills: [
     {
       category: 'Languages',
-      items: ['TypeScript', 'Python', 'Go', 'Java', 'SQL'],
+      items: ['TypeScript', 'JavaScript', 'Python', 'Java', 'Shell'],
     },
     {
       category: 'Frontend',
-      items: ['React', 'Next.js', 'Tailwind CSS', 'Three.js'],
+      items: ['React', 'Angular (SSR)', 'Tailwind CSS', 'Three.js'],
     },
     {
       category: 'Backend',
-      items: ['Node.js', 'PostgreSQL', 'Redis', 'gRPC', 'REST APIs'],
+      items: ['Node.js', 'Express.js', 'MongoDB', 'WebSocket', 'REST APIs'],
     },
     {
-      category: 'Infra / Tools',
-      items: ['Docker', 'AWS', 'Vercel', 'GitHub Actions', 'Terraform'],
+      category: 'Infra / Tools & APIs',
+      items: ['Google Gemini API', 'Google OAuth 2.0 / JWT', 'Docker', 'Linux', 'Vercel'],
     },
   ],
 
   experience: [
     {
-      role: 'Software Engineer',
-      company: 'Company Name',
-      period: '2023 — Present',
-      description:
-        'Built and maintained core services handling production traffic. Led a migration that improved p99 latency by 40%.',
-      stack: ['TypeScript', 'Node.js', 'PostgreSQL', 'AWS'],
-    },
-    {
       role: 'Software Engineer Intern',
-      company: 'Previous Company',
-      period: 'Summer 2022',
+      company: 'FICO',
+      period: 'March 2026 — Present',
       description:
-        'Shipped a feature end-to-end used by thousands of daily active users. Wrote tests that caught 3 production-bound bugs before launch.',
-      stack: ['React', 'Python', 'Docker'],
+        'Collaborated on Know Your Locality, a full-stack geolocation app using the Google Gemini API to generate AI-powered activity recommendations based on user location and travel mode (car, bike, walk). Contributed to a real-time WebSocket chat interface for AI-driven activity planning with persistent chat history in MongoDB. Helped implement Google OAuth 2.0 / JWT authentication and three-layer (frontend, backend, database) distance-cap validation for travel radius limits.',
+      stack: ['Angular (SSR)', 'Express.js', 'MongoDB', 'WebSocket', 'Gemini API'],
     },
     {
-      role: 'B.S. Computer Science',
-      company: 'Your University',
-      period: '2019 — 2023',
-      description: 'Focused on distributed systems and HCI coursework. Teaching assistant for intro data structures.',
+      role: 'B.E. Computer Science Engineering',
+      company: 'Chitkara University',
+      period: '2023 — 2027',
+      description: 'Batch of 2023–2027.',
       stack: [],
     },
   ],
 
   projects: [
     {
-      name: 'Project One',
-      description: 'A short, punchy description of what this project does and why it matters.',
-      stack: ['TypeScript', 'React', 'Node.js'],
-      github: 'https://github.com/kaemikun',
+      name: 'Know Your Locality',
+      description:
+        'A full-stack geolocation app that uses the Google Gemini API to generate AI-powered activity recommendations based on user location and travel mode. Includes a real-time WebSocket chat for AI-driven activity planning, persistent chat history in MongoDB, and Google OAuth 2.0 / JWT authentication.',
+      stack: ['Angular (SSR)', 'Express.js', 'MongoDB', 'WebSocket', 'Gemini API'],
+      github: 'https://github.com/Gaurav-Singh-Heer/Know-Your-Locality',
+      live: 'https://know-your-locality.vercel.app/',
+      highlight: true,
+    },
+    {
+      name: 'YuruWatch',
+      description:
+        'A responsive, consumer-facing content streaming platform with search, previews, and dynamic content rendering. Contributed to refactoring monolithic logic into modular services, improving page load time by 20%.',
+      stack: ['React', 'Express.js'],
+      github: 'https://github.com/saayraposwal2/YuruWatch',
       live: '#',
       highlight: true,
     },
     {
-      name: 'Project Two',
-      description: 'Another project worth showing off — what problem did it solve, what did you learn?',
-      stack: ['Python', 'FastAPI', 'PostgreSQL'],
-      github: 'https://github.com/kaemikun',
-      live: '#',
-      highlight: true,
-    },
-    {
-      name: 'Project Three',
-      description: 'A smaller tool, script, or experiment that still demonstrates good engineering instincts.',
-      stack: ['Go'],
-      github: 'https://github.com/kaemikun',
-      live: '#',
-      highlight: false,
-    },
-    {
-      name: 'Project Four',
-      description: 'Side project, hackathon build, or open-source contribution worth mentioning.',
-      stack: ['React', 'Three.js'],
-      github: 'https://github.com/kaemikun',
+      name: 'BrewDev',
+      description:
+        'A fast, automated developer environment setup tool that configures full-stack or backend environments in minutes, with system safety checks, rollback mechanisms, and user-friendly CLI output.',
+      stack: ['Shell', 'Linux', 'CLI'],
+      github: 'https://github.com/kaemikun/brewdev',
       live: '#',
       highlight: false,
     },
